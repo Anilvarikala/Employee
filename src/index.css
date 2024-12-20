@@ -3,3 +3,40 @@
 *{
   font-family: 'Poppins';
 }
+
+.sidebar-en{
+  width: 280px;
+  min-height:130vh;
+}
+.sidebar{
+
+  flex-direction: row;
+}
+@media(max-width:700px){
+  .sidebar{
+     flex-direction: column;
+  }
+  
+  .responsive-form{
+    margin-top: -2rem;
+    margin-left: -2rem;
+    width: 155%;
+  }
+  .form-container{
+    margin-left: 2.5rem;
+    width: 123%;
+    margin-top: 6rem;
+  }
+  .rf-2{
+    margin-top:3rem;
+  }
+  .rf-3{
+    min-width:176%;
+    margin-left:-3rem;
+  }
+  .sidebar-en{
+   
+    width: 100vw;
+    min-height:100%
+ }
+}

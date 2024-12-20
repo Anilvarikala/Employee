@@ -81,7 +81,7 @@ const AddData = () => {
 
   return (
     <div className="form-container">
-      <form className="responsive-form" onSubmit={handleSubmit}>
+      <form className="responsive-form rf-2" onSubmit={handleSubmit}>
         <h2>Employee Form</h2>
         <label>
           Employee Id:

@@ -30,7 +30,7 @@ const UpdateStudent = () => {
 
   return (
     <div style={{marginLeft:"20vw"}}>
-      <form className="responsive-form" onSubmit={handleSubmit}>
+      <form className="responsive-form rf-3" onSubmit={handleSubmit}>
         <h2>Employee Form</h2>
         <label>
           Employee Id:
